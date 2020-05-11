@@ -21,3 +21,5 @@ Grupa studencka: WELE18Q2S1
       if (digitalRead(LED_BUILTIN) == HIGH)
       Serial.println("wlaczone!");
 
+Zakończenie zajęć numer 3
+
