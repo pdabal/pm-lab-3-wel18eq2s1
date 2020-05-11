@@ -13,4 +13,7 @@ Numer albumu: 71980
 Grupa studencka: WEL18EQ2S1
 
 # Odpowiedzi do pytań z instrukcji
-...
+Co się dzieje w momencie jednego kliknięcia przycisku, oraz w momencie trzymania przycisku (np. przez 3 sekundy)?. Dlaczego wynik jest nieco inny od spodziewanego?
+
+W momencie nacisnięcia przycisku odrazu zlicza 3 nacisnięcia przycisku. Jeżeli przytrzymamy przycisk to zlicza cały czas nacisnięcia przycisku (także dłużej niż czas trwania wcisniętego przycisku). Układ działa gdy na wejściu D2 jest stan wysoki, przy klkinięciu przez pewien czas jest ten stan na tym wejściu a mikrokontroler widzi że w tym czasie trwania może zostać wcisnięty przycisk kilkokrotnie. Jeżeli trzymamy przycisk to stan wysoki trwa przez jeszcze dłuższy a mikrokontroler rozumie to że w tym czasie mogliśmy kliknąć az np. 23 razy na przycisk.
+ 
