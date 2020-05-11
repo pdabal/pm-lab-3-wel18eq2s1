@@ -15,3 +15,5 @@ Grupa studencka: WELE18Q2S1
 # Odpowiedzi do pytań z instrukcji
 pytanie zadanie 3.2.2 
 Ponieważ przyczyną może być inna prędkość portu szeregowego komputera oraz urządzenia lub brak stopowania.
+pytanie 2 zadanie 3.2.2
+Jeżeli liczba przycisku przekroczy określoną ilość, możemy wprowadzić nowy parametr, który będzie liczzył liczbę resetów zmiennej. Mówiąc prosto, jeżeli zmienna przekroczy maksymalną wartość, to nowy parametr będzie zwiększany o jeden, a zmienna zerowana.
