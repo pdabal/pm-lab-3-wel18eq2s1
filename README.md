@@ -24,3 +24,7 @@ W jaki sposób można rozbudować funkcjonalność programu w przypadku gdy licz
 
 Można dopisać nowe funkcje lub zwiększyć parametry.
 
+Zadanie-3-2-3
+W jaki sposób można zwiększyć liczbę obsługiwanych poleceń oraz liczbę obsługiwanych parametrów? Należy dodać polecenie po wywołaniu którego nastąpi informacja czy dioda LED jest włączona.
+
+Poprzez zmodyfikowanie kodu podając dodając polecenie włączonej diody Serial.println("Dioda wlaczona")
