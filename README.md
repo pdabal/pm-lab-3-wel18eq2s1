@@ -15,3 +15,5 @@ Grupa studencka: WELE18Q2S1
 # Odpowiedzi do pytań z instrukcji
 ...
 Zadanie 3.2.2a: W momencie jednego kliknięcia przycisku liczba naciśnięć przycisku wzrasta o 3, a podczas trzymania przycisku liczba naciśnięć przycisku wzrasta, dopóki przycisk pozostaje naciśnięty. Założeniem programu jest to, aby zliczać pojedyncze kliknięcia przycisku, natomiast wynik jest nieco inny od spodziewanego ponieważ program zlicza naciśnięcia przycisku cały czas podczas stanu wysokiego przycisku, który występuje podczas wciśnięcia. 
+
+Zadanie 3.2.2b: Aby rozszerzyć funkcjonalność programu w przypadku gdy liczba naciśnięć przekroczy określoną liczbę można dodać instrukcję warunkową if która zeruje liczbę naciśnięć po przekroczeniu limitu.
