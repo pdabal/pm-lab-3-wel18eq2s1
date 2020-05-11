@@ -17,3 +17,5 @@ Zadanie-3-2-2
 Jednno naciśnięcie przycisku powoduje zliczenie trzech naciśnięć przycisku, natomiast naciśnięcie i trzymanie przycisku powoduje ciągłe zlicznie naciśnięć do momentu puszczenia przycisku. Naciśnięcia naliczne są potrójnie lub ciągle, kiedy trzymamy przycisk, zamiast zliczać faktyczne naciśnięcia przycisku. Wykożystanie przeryw spowoduje poprawne działanie ukłaku.
 Zadanie-3-2-2b
 Rozbudować program można dodając nowy parametr liczący ilość resetów pierwszej zmiennej. Zawsze kiedy pierwsza zmienna przekroczy swoją wartość to nowa zmienna zwiększy swoją wartość a pierwsza zostanie wyzerowana.
+Zadanie-3-2-3
+Liczbę obsługiwanych poleceń oraz liczbę obsługiwanych parametrów można zwiększyć dodając nowe funkcje sprawdzające działanie oraz poprzez dodoanie nowych parametrów do naszego kodu.
