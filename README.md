@@ -8,9 +8,9 @@ Data: 11.05.2020 r.
 
 # Informacje o studencie
 
-Imię i nazwisko studenta: Imię Nazwisko  
-Numer albumu: 12345  
-Grupa studencka: WELE18Q5S1
+Imię i nazwisko studenta: Mateusz Jankowski
+Numer albumu: 71979 
+Grupa studencka: WELE18Q2S1
 
 # Odpowiedzi do pytań z instrukcji
 ...
