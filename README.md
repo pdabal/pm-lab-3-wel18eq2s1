@@ -20,5 +20,11 @@ Zadanie 3.2.2b
  W jaki sposób można rozbudować funkcjonalność programu w przypadku gdy liczba naciśnięć przycisku przekroczy określoną ilość? 
  Funkcjonalność można rozbudować przy pomocy nowego parametru (liczącego ilość resetów pierwszej zmiennej).Za każdym razem gdy podana zmienna będzie przekraczała określoną ilość , to nowy parametr będzie zwiększany o jeden a zmienna zerowana.
 
+ Zadanie 3.2.3
+  W jaki sposób można zwiększyć liczbę obsługiwanych poleceń oraz liczbę obsługiwanych parametrów? Należy dodać polecenie po wywołaniu którego nastąpi informacja czy dioda LED jest włączona.
+Liczbę obsługiwanych poleceń i liczbę obsługiwanych parametrów można zwiększyć poprzez dodanie nowych funkcji sprawdzających i dopisanie nowych parametrów do kodu.
+
+
+
 
 
