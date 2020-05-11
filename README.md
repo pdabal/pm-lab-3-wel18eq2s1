@@ -14,6 +14,12 @@ Grupa studencka: WELE18Q2S1
 
 # Odpowiedzi do pytań z instrukcji
 ...
-zad 3.2.2a
+Zad 3.2.2a
 Co się dzieje w momencie jednego kliknięcia przycisku, oraz w momencie trzymania przycisku (np. przez 3 sekundy)?. Dlaczego wynik jest nieco inny od spodziewanego? 
-W momencie naciśnięcia przycisku jeden raz otrzymana informacja mówi o tym że przycisk został naciśnięty 3 razy , jeśli przytrzymamy przycisk przez dana chwile czasu to otrzymamy informacje o następnych liczbach nacisniętego przycisku do momentu w ktorym przestaniemy naciskać przycisk.Wynik różni sie od spodziewanego ponieważ nie wykonujemy przerwy
+ Odp:
+ W momencie naciśnięcia przycisku jeden raz otrzymana informacja mówi o tym że przycisk został naciśnięty 3 razy , jeśli przytrzymamy przycisk przez dana chwile czasu to otrzymamy informacje o następnych liczbach nacisniętego przycisku do momentu w ktorym przestaniemy naciskać przycisk.Wynik różni sie od spodziewanego ponieważ nie wykonujemy przerwy.
+
+Zad 3.2.2b
+ W jaki sposób można rozbudować funkcjonalność programu w przypadku gdy liczba naciśnięć przycisku przekroczy określoną ilość?
+ Odp:Funkcjonalność programu w przypadku gdy liczba naciśnięć przycisku przekroczy określoną ilość można rozbudować poprzez wprowadzenie nowego parametru liczącego ilość resetów pierwszej zmiennej . W przypadku gdy podana zmienna będzie przekraczała określoną ilość to nowy parametr  będzie zwiększany o jeden a zmienna  zerowana.
+ 
