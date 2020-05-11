@@ -22,3 +22,6 @@ Zadanie 3.2.2b
  W jaki sposób można rozbudować funkcjonalność programu w przypadku gdy liczba naciśnięć przycisku przekroczy określoną ilość? 
  Można wproawdzić nowy parametr liczący ilość resetów pierwszej zmiennej.Zmienna ta będzie przekraczała okreśłoną ilość, nowy parametr będzie zwiększan a zmienna zerowana.
 
+Zadanie 3.2.3
+W jaki sposób można zwiększyć liczbę obsługiwanych poleceń oraz liczbę obsługiwanych parametrów? Należy dodać polecenie po wywołaniu którego nastąpi informacja czy dioda LED jest włączona
+Odp; Modyfikując kod dodając polecienie  Serial.println("Dioda wlaczona")
