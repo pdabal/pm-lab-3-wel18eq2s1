@@ -13,4 +13,11 @@ Numer albumu: 69049
 Grupa studencka: WEL18EQ2S1
 
 # Odpowiedzi do pytań z instrukcji
-...
+
+Zadanie 3-2-2 a)
+Co się dzieje w momencie jednego kliknięcia przycisku, oraz w momencie trzymania przycisku (np. przez 3 sekundy)?. Dlaczego wynik jest nieco inny od spodziewanego?
+
+W momencie naciśnięcia przycisku tylko raz otrzymujemy informację, że przycisk został naciśnięty trzy razy. Jeśli przycisk będzie naciśnięty przez okres czasu wtedy otrzymamy informację o liczbie naciśnięć do momentu puszczenia przycisku. Wyniki nie są takie same ponieważ pomiędzy wykonujemy przerwy.
+
+Zadanie 3-2-2 a)
+
