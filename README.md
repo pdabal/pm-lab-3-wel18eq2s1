@@ -21,7 +21,11 @@ W momęcie trzymania przycisku przez 3 sekundy cały czas zliczane są kliknięc
 
 zadanie 3.2.2b
 
-Można dodać intrukcję warunkową która będzie zerowała liczbę wciśnięć
+Można dodać intrukcję warunkową która będzie zerowała liczbę wciśnięć.
+
+zadanie 3.2.3
+
+Należy dodać polecenie które spowoduje, że ukaże się informacja czy dioda LED jest włączona. 
 
 
 
