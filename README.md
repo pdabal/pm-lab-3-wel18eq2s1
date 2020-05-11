@@ -22,4 +22,10 @@ Co się dzieje w momencie jednego kliknięcia przycisku, oraz w momencie trzyman
 Zad 3.2.2b
  W jaki sposób można rozbudować funkcjonalność programu w przypadku gdy liczba naciśnięć przycisku przekroczy określoną ilość?
  Odp:Funkcjonalność programu w przypadku gdy liczba naciśnięć przycisku przekroczy określoną ilość można rozbudować poprzez wprowadzenie nowego parametru liczącego ilość resetów pierwszej zmiennej . W przypadku gdy podana zmienna będzie przekraczała określoną ilość to nowy parametr  będzie zwiększany o jeden a zmienna  zerowana.
+
+ Zad 3.2.3
+ W jaki sposób można zwiększyć liczbę obsługiwanych poleceń oraz liczbe obsługiwanych parametrów? Należy dodać polecenie po wywołaniu którego nastąpi informacja czy dioda LED jest włączona.
+ Odp:Liczbę obsługiwanych poleceń i liczbę obsługiwanych parametrów można zwiększyć poprzez dodanie nowych funkcji sprawdzających i dopisanie nowych parametrów do kodu (Serial.println("Dioda wlaczona");)
+
+ 
  
