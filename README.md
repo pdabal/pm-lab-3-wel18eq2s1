@@ -8,9 +8,29 @@ Data: 11.05.2020 r.
 
 # Informacje o studencie
 
-Imię i nazwisko studenta: Imię Nazwisko  
-Numer albumu: 12345  
-Grupa studencka: WELE18Q5S1
+Imię i nazwisko studenta: Łukasz Kopczyński
+Numer albumu: 71984  
+Grupa studencka: WELE18Q2S1
 
 # Odpowiedzi do pytań z instrukcji
-...
+
+zadanie 3.2.2a
+
+W momęcie jednego kliknięcia otrzymujemy 3 powiadomienia o kliknięciu.
+W momęcie trzymania przycisku przez 3 sekundy cały czas zliczane są kliknięcia. Wynik jest inny od spodziewanego ponieważ w układzie stan wysoki po kliknięciu badź też podczas trzymania występuje przez pewien czas i podczas trzymania przez 3 sekundy zajdzie kilka stanów wysokich dlatego zliczenie naciśnięcia przycisku jest kilkukrotne. 
+
+zadanie 3.2.2b
+
+Można dodać intrukcję warunkową która będzie zerowała liczbę wciśnięć.
+
+zadanie 3.2.3
+
+ Odpowiedz (kod) :  
+
+    if (!strcmp(paramStr, "Wlaczona")) 
+    {
+      if (digitalRead(LED_BUILTIN) == HIGH)
+      Serial.println("Dioda wlaczona");
+    }
+
+Zakończenie zajęć numer 3 - Łukasz Kopczyński.  
