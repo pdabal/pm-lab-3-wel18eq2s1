@@ -27,3 +27,10 @@ if (liczba_nacisniec == 10){
     liczba_nacisniec = 0;
 }
  
+
+W jaki sposób można zwiększyć liczbę obsługiwanych poleceń oraz liczbę obsługiwanych parametrów?
+
+Można zwiększyć liczbę obsługowanych poleceń oraz parametrów poprzez dodawanie nowych warunków sprawdzających i dopisywanie nowych parametrów np:
+else if (!strcmp(paramStr, "sprawdzenieLED")) {
+      if (digitalRead(LED_BUILTIN) == HIGH)
+      Serial.println("wlaczony LED");
