@@ -18,3 +18,6 @@ Naciskając przycisk raz, działanie programu wskazuje na to, ze przycisk zosta�
 
 Zad 3.2.2b
 Rozbudowanie funkcjonalności programu mozna uzyskać poprzez zastosowanie parametru liczącego ilość resetów pierwszej zmiennej. W momencie przekroczenia tej ilości następuje zwiększenie nowego parametru o jeden i zerowanie zmiennej.
+
+Zad 3.2.3
+Dodając nowe funkcje sprawdzające oraz utworzenie parametrów  (Serial.println("wlacz diode")) 
