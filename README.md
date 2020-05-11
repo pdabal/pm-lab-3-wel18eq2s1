@@ -21,5 +21,12 @@ nieco inny od spodziewanego?
 
 W momencie jednego kliknięcia pojawiają się wierszy dla 4 kliknięć. 
 W momencie przytrzymania przez cały czas pojawiają się kolejne wiersze kliknięć do momentu puszczenia,
-wtedy pojawiają się jeszcze 3 kolejne.x
+wtedy pojawiają się jeszcze 3 kolejne.
+
+2. W jaki sposób można
+rozbudować funkcjonalność programu w przypadku gdy
+liczba naciśnięć przycisku przekroczy określoną ilość?
+
+Dodając zmienną, która będzie zliczała ilość resetów pierwszej zmiennej i po przekroczeniu określonej ilości zerowała pierwszą.
+
 
