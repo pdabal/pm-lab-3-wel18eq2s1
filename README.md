@@ -16,3 +16,8 @@ Grupa studencka: WELE18Q2S1
 3.2.2.a - W momencie jednego kliknięcia program zliczał różną ilość kliknięć np. trzy albo cztery. może to być spowodowane opóźnieniami przesyłu danych przez internet jak również tym, że stan wysoki utrzymuje się rpzez jakiś czas po odciśnięciu przycisku, przez co program dalej zlicza. W momencie trzymania przycisku program cały czas zlicza kliknięcia w nieskończoność. Dzieje sie tak, ponieważ nie ma w kodzie wyjścia z pętli w momencie wyświetlenia jednego komunikatu i przez to program działa i "zlicza" kliknięcia tak długo, aż nie zniknie z wejścia stan wysoki.
 
 3.2.2.b - dodać w void loop dodatkowego if'a, który sprawdza, czy liczba_naciśnieć jest większa od zadanej określonej liczby i jeśli ją przekroczy, to ustawić wartość liczba_naciśnięć = 0.
+
+3.2.3 - else if (!strcmp(paramStr, "LEDhigh")) {
+      if (digitalRead(LED_BUILTIN) == HIGH)
+      Serial.println("wlaczone!");
+
