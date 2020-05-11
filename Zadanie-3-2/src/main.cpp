@@ -29,7 +29,7 @@ void setup() {
   Wire.write(0x08);
   Wire.endTransmission();
 
-  delay(10);
+  delay(10); 
 }
 
 void loop(){
