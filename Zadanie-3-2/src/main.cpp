@@ -17,7 +17,7 @@ void loop() {
 
   sscanf(rxBuff, "%s %d", paramStr, &paramVal);
 
-  if (bytesNo) { 
+ if (bytesNo) { 
     Serial.print("Wykonuje... ");
     if (!strcmp(paramStr, "led")) {
       if(paramVal) {
@@ -32,9 +32,13 @@ void loop() {
         digitalWrite(LED_BUILTIN, LOW); delay(500);
       }
       Serial.println("OK!");
+    } else if (!strcmp(paramStr, "wlaczone")) {
+      if (digitalRead(LED_BUILTIN) == HIGH)
+      Serial.println("Dioda jest wlaczona");
     } else {
       Serial.println("Blad!");
     }
+  
   }
   
   for (int i = 0; i < Serial.available(); i++) {

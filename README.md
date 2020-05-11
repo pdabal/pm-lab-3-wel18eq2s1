@@ -25,7 +25,11 @@ Można dodać intrukcję warunkową która będzie zerowała liczbę wciśnięć
 
 zadanie 3.2.3
 
-Należy dodać polecenie które spowoduje, że ukaże się informacja czy dioda LED jest włączona. 
+ Odpowiedz (kod) :  
 
-
+    if (!strcmp(paramStr, "Wlaczona")) 
+    {
+      if (digitalRead(LED_BUILTIN) == HIGH)
+      Serial.println("Dioda wlaczona");
+    }
 
