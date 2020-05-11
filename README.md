@@ -13,4 +13,13 @@ Numer albumu: 71979
 Grupa studencka: WELE18Q2S1
 
 # Odpowiedzi do pytań z instrukcji
-...
+
+1. Co się dzieje w momencie jednego
+kliknięcia przycisku, oraz w momencie trzymania
+przycisku (np. przez 3 sekundy)?. Dlaczego wynik jest
+nieco inny od spodziewanego?
+
+W momencie jednego kliknięcia pojawiają się wierszy dla 4 kliknięć. 
+W momencie przytrzymania przez cały czas pojawiają się kolejne wiersze kliknięć do momentu puszczenia,
+wtedy pojawiają się jeszcze 3 kolejne.x
+
