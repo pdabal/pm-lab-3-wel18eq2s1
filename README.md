@@ -18,3 +18,7 @@ Co się dzieje w momencie jednego kliknięcia przycisku, oraz w momencie trzyman
 
 Odp: W momencie naciśnięcia przycisku tylko raz w konsoli szeregowej otrzymujemy nformacje,że przycisk został naciśnięty trzy razy, nastomiast gdy będziemy trzymać przycisk daną chwilę to będziemy mieli informację o następnych liczbach naciśniętego przycisku, aż do momentu w którym przestaniemy naciskać. Wyniki róznią się ponieważ nie wykonujemy przerwy , gdy dołożymy przerwę to przy ciągłbym trzymaniu przycisku liczba odczytanych informacji zmnijeszy sie .
 
+Zadanie 3.2.2b
+ W jaki sposób można rozbudować funkcjonalność programu w przypadku gdy liczba naciśnięć przycisku przekroczy określoną ilość? 
+ Można wproawdzić nowy parametr liczący ilość resetów pierwszej zmiennej.Zmienna ta będzie przekraczała okreśłoną ilość, nowy parametr będzie zwiększan a zmienna zerowana.
+
