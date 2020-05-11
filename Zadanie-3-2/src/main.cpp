@@ -2,22 +2,39 @@
 
 #define BUTTON 2
 
-uint16_t liczba_nacisniec = 0 ; 
+int stanPrzycisku;
+int poprzedniStanPrzycisku = LOW;
+unsigned long poprzedniCzas = 0;
+unsigned int liczba_nacisniec = 0;
 
-void setup()
-{
-Serial.begin(96);
-pinMode(BUTTON, INPUT);
+void setup() {
+ Serial.begin(9600);
+ pinMode(BUTTON, INPUT);
+
 }
 
-void loop ()
+void loop () 
 {
-  if(digitalRead(BUTTON))
+  int odczyt = digitalRead(BUTTON);
+  if (odczyt != poprzedniStanPrzycisku) {
+poprzedniCzas = millis();
+
+  }
+
+  if ((millis() - poprzedniCzas) > 50)
   {
-Serial.print("Liczba nacisniec przycisku: ");
-Serial.print(++liczba_nacisniec);
+    if (odczyt != stanPrzycisku) {
+      stanPrzycisku = odczyt;
+      if (stanPrzycisku = HIGH ) {
+        liczba_nacisniec++;
 
-}
+        Serial.print("Liczba nacisniec przycisku : ");
+        Serial.println(liczba_nacisniec);
+      }
+    }
 
 
+  }
+
+poprzedniStanPrzycisku = odczyt;
 }
