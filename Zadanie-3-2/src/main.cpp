@@ -1,15 +1,23 @@
 #include <Arduino.h>
 
-uint8_t  i = 0;
+#define BUTTON 2
+
+uint16_t liczba_nacisniec = 0 ; 
+
 void setup()
 {
-  Serial.begin(9600);
-  Serial.println("Witaj programisto");
+Serial.begin(96);
+pinMode(BUTTON, INPUT);
+}
+
+void loop ()
+{
+  if(digitalRead(BUTTON))
+  {
+Serial.print("Liczba nacisniec przycisku: ");
+Serial.print(++liczba_nacisniec);
 
 }
 
-void loop()
-{
-  Serial.println(i);
-  delay(2000);
+
 }

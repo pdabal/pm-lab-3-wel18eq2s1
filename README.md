@@ -13,4 +13,11 @@ Numer albumu: 71984
 Grupa studencka: WELE18Q2S1
 
 # Odpowiedzi do pytań z instrukcji
-...
+
+zadanie 3.2.2
+
+W momęcie jednego kliknięcia otrzymujemy 3 powiadomienia o kliknięciu.
+W momęcie trzymania przycisku przez 3 sekundy cały czas zliczane są kliknięcia. Wynik jest inny od spodziewanego ponieważ w układzie stan wysoki po kliknięciu badź też podczas trzymania występuje przez pewien czas i podczas trzymania przez 3 sekundy zajdzie kilka stanów wysokich dlatego zliczenie naciśnięcia przycisku jest kilkukrotne. 
+
+
+
