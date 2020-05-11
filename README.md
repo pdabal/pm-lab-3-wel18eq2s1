@@ -10,7 +10,8 @@ Data: 11.05.2020 r.
 
 Imię i nazwisko studenta: Wojciech Szymański     
 Numer albumu: 72030
-Grupa studencka: WELE18Q5S1
+Grupa studencka: WELE18Q2S1
 
 # Odpowiedzi do pytań z instrukcji
-...
+Zad 3.2.2a
+Naciskając przycisk raz, działanie programu wskazuje na to, ze przycisk został naciśnięty trzy razy. Przytrzymując przycisk przez okres czasu, otrzymamy informacje o następnych liczbach naciśniętego przycisku, do momentu przerwania naciskania. Róznica między otrzymanym wynikiem, a tym spdziewanym wynika z tego, ze nie wykonujemy przerwy przy ciągłym trzymaniu przycisku.
