@@ -30,3 +30,10 @@ liczba naciśnięć przycisku przekroczy określoną ilość?
 Dodając zmienną, która będzie zliczała ilość resetów pierwszej zmiennej i po przekroczeniu określonej ilości zerowała pierwszą.
 
 
+3. W jaki sposób można zwiększyć liczbę
+obsługiwanych poleceń oraz liczbę
+obsługiwanych parametrów?
+
+
+Poprzez dodanie nowych parametrów kodu związane z wyświetlaniem informacji o stanie diody.
+
