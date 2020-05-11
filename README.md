@@ -19,5 +19,8 @@ Co się dzieje w momencie jednego kliknięcia przycisku, oraz w momencie trzyman
 
 W momencie naciśnięcia przycisku tylko raz otrzymujemy informację, że przycisk został naciśnięty trzy razy. Jeśli przycisk będzie naciśnięty przez okres czasu wtedy otrzymamy informację o liczbie naciśnięć do momentu puszczenia przycisku. Wyniki nie są takie same ponieważ pomiędzy wykonujemy przerwy.
 
-Zadanie 3-2-2 a)
+Zadanie 3-2-2 b)
+W jaki sposób można rozbudować funkcjonalność programu w przypadku gdy liczba naciśnięć przycisku przekroczy określoną ilość?
+
+Można dopisać nowe funkcje lub zwiększyć parametry.
 
