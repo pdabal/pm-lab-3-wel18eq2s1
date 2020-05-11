@@ -54,4 +54,3 @@ void loop(){
     Serial.println(dZ);
 
     delay(2000);
-}
