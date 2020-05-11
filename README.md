@@ -21,3 +21,5 @@ Zadanie 3.2.2b: Aby rozszerzyć funkcjonalność programu w przypadku gdy liczba
 Zadanie 3.2.3: Aby zwiększyć liczbę obsługiwanych poleceń oraz liczbę obsługiwanych parametrów należy dodac więcej warunków w instrukcji warunkowej if (bytesNo). Polecenie po wywołaniu którego nastąpi informacja czy dioda LED jest włączona: else if (!strcmp(paramStr, "check")) {
       if (digitalRead(LED_BUILTIN) == HIGH)
       Serial.println("Dioda wlaczona!");
+
+Zakończenie zajęć
