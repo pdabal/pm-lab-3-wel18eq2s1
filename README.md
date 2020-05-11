@@ -13,4 +13,5 @@ Numer albumu: 72038
 Grupa studencka: WELE18Q2S1
 
 # Odpowiedzi do pytań z instrukcji
-...
+Zadanie-3-2-2
+Jednno naciśnięcie przycisku powoduje zliczenie trzech naciśnięć przycisku, natomiast naciśnięcie i trzymanie przycisku powoduje ciągłe zlicznie naciśnięć do momentu puszczenia przycisku. Naciśnięcia naliczne są potrójnie lub ciągle, kiedy trzymamy przycisk, zamiast zliczać faktyczne naciśnięcia przycisku. Wykożystanie przeryw spowoduje poprawne działanie ukłaku.
