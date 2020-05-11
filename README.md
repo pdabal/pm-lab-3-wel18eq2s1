@@ -13,4 +13,5 @@ Numer albumu: 72036
 Grupa studencka: WELE18Q2S1
 
 # Odpowiedzi do pytań z instrukcji
-...
+pytanie zadanie 3.2.2 
+Ponieważ przyczyną może być inna prędkość portu szeregowego komputera oraz urządzenia lub brak stopowania.
