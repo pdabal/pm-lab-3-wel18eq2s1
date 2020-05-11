@@ -33,3 +33,4 @@ zadanie 3.2.3
       Serial.println("Dioda wlaczona");
     }
 
+Zakończenie zajęć numer 3 - Łukasz Kopczyński.  
